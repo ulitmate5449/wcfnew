@@ -1,0 +1,42 @@
+﻿@model wcfmvcproject.ServiceReference2.tblEmployee
+
+@{
+    ViewBag.Title = "employe";
+}
+
+<h2>employe</h2>
+
+<div>
+    <h4>tblEmployee</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.empno)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.empno)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ename)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ename)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mgr)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mgr)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit",new { id = Model.empno }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

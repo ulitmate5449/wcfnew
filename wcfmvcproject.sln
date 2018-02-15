@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wcfmvcproject", "wcfmvcproject\wcfmvcproject.csproj", "{445F7418-692B-48E5-AB6E-5AE1624F6108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ui", "Ui\Ui.csproj", "{FE6B9220-6975-4858-924B-A96975ECB9A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{445F7418-692B-48E5-AB6E-5AE1624F6108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445F7418-692B-48E5-AB6E-5AE1624F6108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445F7418-692B-48E5-AB6E-5AE1624F6108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445F7418-692B-48E5-AB6E-5AE1624F6108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6B9220-6975-4858-924B-A96975ECB9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6B9220-6975-4858-924B-A96975ECB9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6B9220-6975-4858-924B-A96975ECB9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6B9220-6975-4858-924B-A96975ECB9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
